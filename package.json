@@ -1,0 +1,30 @@
+{
+  "name": "system-monitor",
+  "version": "1.0.0",
+  "description": "A real-time system monitoring CLI tool",
+  "main": "monitor.js",
+  "type": "module",
+  "scripts": {
+    "start": "node monitor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monitor",
+    "system",
+    "cli",
+    "performance"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "clear": "^0.1.0",
+    "cli-table2": "^0.2.0",
+    "figlet": "^1.9.3",
+    "os-utils": "^0.0.14",
+    "systeminformation": "^5.27.11"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
